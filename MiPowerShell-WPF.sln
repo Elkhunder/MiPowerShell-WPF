@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiPowerShell-WPF", "MiPowerShell-WPF.csproj", "{0830578D-AA7A-49F0-91F8-655DFA973652}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiPowerShell.Startup", "MiPowerShell.Startup.csproj", "{0830578D-AA7A-49F0-91F8-655DFA973652}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Startup", "Startup", "{A55857F4-27EC-4BD1-9989-FE3ADB81961D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0830578D-AA7A-49F0-91F8-655DFA973652} = {A55857F4-27EC-4BD1-9989-FE3ADB81961D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75443026-FF2C-430E-9635-E8226E36C515}
